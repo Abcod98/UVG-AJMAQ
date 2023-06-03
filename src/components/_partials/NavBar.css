@@ -1,15 +1,21 @@
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #46220f;
+  background-color: #ffffff;
   padding: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+img {
+  width: 55px;
+  height: 55px;
 }
 
 /* Navbar logo */
 .navbar-brand {
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 22px;
   text-transform: uppercase;
 }
 
@@ -30,19 +36,21 @@
 
 /* Navbar link hover */
 .navbar-link:hover {
-  color: #fff;
+  color: #302119;
 }
 
 ul {
   list-style-type: none;
 }
 
+li {
+  margin-right: 40px;
+}
+
 .active {
-  color: #fff;
-  font-weight: bold;
+  color: #000;
 }
 
 .notActive {
-  color: #000;
-  font-weight: bold;
+  color: #4D5557;
 }

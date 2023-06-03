@@ -1,0 +1,20 @@
+.contacto-conteiner {
+  margin: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  color: #4D5557;
+}
+
+.contacto-conteiner-encabezado h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.contacto-conteiner-encabezado p {
+  font-size: 20px;
+  text-align: center;
+}
+
+
+
+

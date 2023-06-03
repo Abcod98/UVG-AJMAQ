@@ -1,0 +1,47 @@
+* {
+    color: #4D5557;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-container {
+    width: 80%;
+    height: 80%;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-image-container {
+    flex: 0 0 auto;
+    margin-right: 20px;
+  }
+  
+  .about-image {
+    margin-left: 40px;
+    width: 375px;
+    height: 375px;
+    border-radius: 5%;
+  }
+  
+  .about-text-container {
+    margin-top: -80px;
+    margin-left: 40px ;
+    flex: 1 1 auto;
+  }
+
+  .about-text-container h2 {
+    font-family: 'Petrona', serif;
+  }
+  
+  .about-title {
+    font-size: 40px;
+    font-weight: 100;
+    margin-top: 0;
+    text-align: left;
+    line-height: 1.1;
+  }
+  
+  .about-text {
+    font-size: 16px;
+    line-height: 1.5;
+  }

@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react';
+import './styles/Banner.css'
 
 function Banner() {
 
   const [currentImage, setCurrentImage] = useState(0);
   const images = [
-    'https://c8.alamy.com/compes/2j5aa6h/conjunto-de-cestas-de-mimbre-para-picnic-sobre-fondo-blanco-2j5aa6h.jpg',
-    'https://c7.alamy.com/compes/2mxeg5m/conjunto-de-cestas-de-mimbre-para-picnic-sobre-fondo-blanco-diseno-de-banner-2mxeg5m.jpg',
-    'https://c8.alamy.com/compes/2m7h48y/conjunto-de-elegantes-cestas-de-ratan-sobre-fondo-blanco-2m7h48y.jpg',
+    'https://media.discordapp.net/attachments/967269362425806858/1111853471520534671/banner1.png?width=734&height=413',
+    'https://media.discordapp.net/attachments/967269362425806858/1111865284693868617/banner2.png?width=734&height=413',
+    'https://media.discordapp.net/attachments/967269362425806858/1111870889747828816/banner3.png?width=734&height=413',
   ];
 
   const changeImage = () => {
@@ -19,16 +20,13 @@ function Banner() {
   }, [currentImage]);
 
   const imageStyle = {
-    width: '100%',
-    height: '70%',
-    objectFit: 'cover',
-    borderRadius: '10px',
-
+    width: '60%',
+    height: '60%',
   };
 
   return (
     <div>
-       <img src={images[currentImage]} alt="Banner" style={imageStyle} />
+       <img className='Banner' src={images[currentImage]} alt="Banner"/>
     </div>
   );
 }
